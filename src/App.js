@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
-
+import Footer from './components/Footer';
 
 // App is the main component that will be rendered in the root element
 function App() {
@@ -18,6 +18,7 @@ function App() {
           <Route path='/projects' exact element={<Projects />} />
           <Route path='/experience' exact element={<Experience />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
